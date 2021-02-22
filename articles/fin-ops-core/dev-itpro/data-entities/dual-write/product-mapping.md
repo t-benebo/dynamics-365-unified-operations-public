@@ -102,6 +102,8 @@ When products are synchronized, you must enter a value for the **Sales unit** fi
 
 The synchronization of products happens from the Finance and Operations app to Dataverse. This means that the values of the product table columns can be changed in Dataverse, but when the synchronization is triggered (when a product column is modified in a Finance and Operations app), this will overwrite the values in Dataverse. 
 
+Note that product family creation in Sales is not supported with Dual-write synchronizing products. 
+
 [!include [symbols](../../includes/dual-write-symbols.md)]
 
 [!include [products](includes/EcoResReleasedDistinctProductCDSEntity-products.md)]
